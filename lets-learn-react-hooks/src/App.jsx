@@ -1,6 +1,9 @@
 import { useState } from 'react';
 import ClearuseEffect from './components/ClearuseEffect';
+import HookFive from './components/HookFive';
+import HookFour from './components/HookFour';
 import HookOne from './components/HookOne';
+import HookSix from './components/HookSix';
 import HookThree from './components/HookThree';
 import HookTwo from './components/HookTwo';
 import WindowWidth from './components/WindowWidth';
@@ -14,7 +17,10 @@ function App() {
       {/* <HookTwo /> */}
       {/* <HookThree /> */}
       {/* <WindowWidth /> */}
-      <ClearuseEffect />
+      {/* <ClearuseEffect /> */}
+      {/* <HookFour /> */}
+      {/* <HookFive /> */}
+      <HookSix />
     </>
   )
 }
