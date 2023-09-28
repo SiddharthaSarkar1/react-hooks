@@ -1,8 +1,11 @@
 import { useState } from 'react';
 import ClearuseEffect from './components/ClearuseEffect';
+import HookEight from './components/HookEight';
 import HookFive from './components/HookFive';
 import HookFour from './components/HookFour';
+import HookNine from './components/HookNine';
 import HookOne from './components/HookOne';
+import HookSeven from './components/HookSeven';
 import HookSix from './components/HookSix';
 import HookThree from './components/HookThree';
 import HookTwo from './components/HookTwo';
@@ -20,7 +23,11 @@ function App() {
       {/* <ClearuseEffect /> */}
       {/* <HookFour /> */}
       {/* <HookFive /> */}
-      <HookSix />
+      {/* <HookSix /> */}
+      {/* <HookSeven /> */}
+      {/* <HookEight /> */}
+      <HookNine />
+
     </>
   )
 }
