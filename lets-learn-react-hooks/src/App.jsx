@@ -14,6 +14,13 @@ import UseCustomHook from './components/UseCustomHook';
 import WindowWidth from './components/WindowWidth';
 import MyApp from './learnAxios/MyApp';
 
+import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+import Home from './pages/Home';
+import Profile from './pages/Profile';
+import Users from './pages/Users';
+import NotFound from './pages/NotFound';
+import Navbar from './components/Navbar';
+
 function App() {
 
   return (
@@ -35,7 +42,17 @@ function App() {
       {//AXIOS learning part}
       }
 
-      <MyApp />
+      {/* <MyApp /> */}
+
+      <Router>
+      <Navbar />
+        <Routes>
+          <Route path='/' element={<Home />} />
+          <Route path='/profile' element={<Profile />} />
+          <Route path='/users' element={<Users />} />
+          <Route path='*' element={<NotFound />} />
+        </Routes>
+      </Router>
 
     </>
   )
