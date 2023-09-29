@@ -7,12 +7,14 @@ import HookNine from './components/HookNine';
 import HookOne from './components/HookOne';
 import HookSeven from './components/HookSeven';
 import HookSix from './components/HookSix';
+import HookTen from './components/HookTen';
 import HookThree from './components/HookThree';
 import HookTwo from './components/HookTwo';
+import UseCustomHook from './components/UseCustomHook';
 import WindowWidth from './components/WindowWidth';
+import MyApp from './learnAxios/MyApp';
 
 function App() {
-  // const [count, setCount] = useState(0)
 
   return (
     <>
@@ -26,7 +28,14 @@ function App() {
       {/* <HookSix /> */}
       {/* <HookSeven /> */}
       {/* <HookEight /> */}
-      <HookNine />
+      {/* <HookNine /> */}
+      {/* <HookTen /> */}
+      {/* <UseCustomHook /> */}
+
+      {//AXIOS learning part}
+      }
+
+      <MyApp />
 
     </>
   )
